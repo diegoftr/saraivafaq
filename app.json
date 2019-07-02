@@ -1,4 +1,7 @@
 {
   "name": "SaraivaFaq",
-  "displayName": "SaraivaFaq"
+  "displayName": "SaraivaFaq",
+  "android": { 
+    "versionCode": 4
+    }
 }

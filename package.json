@@ -1,16 +1,22 @@
 {
   "name": "SaraivaFaq",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-native-fontawesome": "^0.1.0",
     "react": "16.8.3",
     "react-native": "0.59.9",
+    "react-native-button-group": "^1.0.0",
+    "react-native-circular-progress": "^1.1.0",
     "react-native-dialogflow": "^3.2.2",
     "react-native-gifted-chat": "^0.9.11",
+    "react-native-svg": "^9.5.1",
     "react-native-tts": "^3.0.0",
     "react-native-voice": "^0.3.0"
   },

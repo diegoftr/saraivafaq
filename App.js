@@ -12,6 +12,11 @@ import Dialogflow from "react-native-dialogflow";
 import { GiftedChat } from 'react-native-gifted-chat';
 import dismissKeyboard from 'dismissKeyboard';
 import Tts from 'react-native-tts';
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
+import { faMicrophone } from '@fortawesome/free-solid-svg-icons'
+import { faVolumeUp } from '@fortawesome/free-solid-svg-icons'
+import { faVolumeMute } from '@fortawesome/free-solid-svg-icons'
+import ButtonGroup from 'react-native-button-group';
 
 
 type Props = {};
@@ -34,7 +39,7 @@ export default class App extends Component<Props> {
     Dialogflow.requestQuery(
       'ola',
       result => {
-        Tts.speak(result.result.fulfillment.messages[0].speech);
+        //Tts.speak(result.result.fulfillment.messages[0].speech);
         this.setState({
           messages: [
             {
@@ -74,7 +79,7 @@ export default class App extends Component<Props> {
               messages[0].text,
               result => {
                 Tts.stop();
-                Tts.speak(result.result.fulfillment.messages[0].speech);
+                //Tts.speak(result.result.fulfillment.messages[0].speech);
                 this.onSend({
                   _id: Math.round(Math.random() * 1000000),
                   text: result.result.fulfillment.messages[0].speech,
@@ -92,7 +97,16 @@ export default class App extends Component<Props> {
             );
           }}
         />
-        <Button title="MIC"
+        
+        
+        <ButtonGroup position={'bottom'}  isFLoat={true} style="{padding: 5,width: WINDOW_EIDTH, backgroundColor: '#fff',flexDirection: 'row',justifyContent: 'space-between'}">
+        <FontAwesomeIcon icon={ faVolumeUp } size={ 32 }  title={'center'}
+          
+          onPress={() => {
+            
+          }}
+        />
+        <FontAwesomeIcon icon={ faMicrophone } size={ 32 } 
           
           onPress={() => {
             Dialogflow.startListening(result => {
@@ -120,6 +134,8 @@ export default class App extends Component<Props> {
             });
           }}
         />
+        
+        </ButtonGroup>
       </View>
     )
   }
