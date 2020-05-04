@@ -74,7 +74,7 @@ export default class App extends Component<Props> {
       const retorno = JSON.parse(evt.data)
       if(this.state.chatHumano) {
         if(this.state.connectionId == null) {
-          this.state.connectionId = retorno.connectionId;
+          this.state.connectionId = retorno.connectionid;
         }
 
         if(this.state.connectionId != null && this.state.connectionId == retorno.usuario) {
