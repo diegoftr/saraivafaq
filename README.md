@@ -50,7 +50,7 @@ Esse comportamento bidirecional permite tipos mais ricos de interações cliente
 
 
 
-![Funcionamento integração chat humano]
+# Funcionamento integração chat humano
 Abaixo é exibido o funcionamento do da integração entre usuário e operador, o operador está enviando as mensagens via console.
 
 ![Chat1](imgs/chat1.jpeg)![Chat2](imgs/chat2.jpeg)![Chat3](imgs/chat3.jpeg)![Chat4](imgs/chat4.png)
