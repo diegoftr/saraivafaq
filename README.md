@@ -7,6 +7,9 @@ Web demo https://bot.dialogflow.com/c19dcf69-a670-4dcc-bf42-067dd8ddd15a
 
 A ideia com a evolução desse projeto é criar uma arquitetura simples e robusta para oferecer uma forma simples de empresas criarem seu chatbot e realizarem a integração com os atententes humanos.
 
+![Arquitetura projeto](imgs/ArquiteturaProjeto.png)
+
+
 
 
 # Dialog Flow
@@ -27,9 +30,9 @@ Intenções: Uma intenção representa um mapeamento entre o que o usuário diz 
 
 ![Workflow Dialog Flow](https://cloud.google.com/dialogflow/docs/images/api-flow.svg?hl=pt-br)
 
-O Dialogflow se integra a muitas plataformas de conversação conhecidas, como o Google Assistente, o Slack e o Facebook Messenger. Caso queira criar um agente para uma dessas plataformas, use uma das opções de integrações. As interações diretas do usuário final são administradas para que você possa se concentrar na criação do seu agente. Cada integração lida com as interações do usuário final de acordo com as especificidades da plataforma. Por isso, consulte a documentação da sua plataforma de integração para mais detalhes.
 
-![AWS](https://miro.medium.com/max/773/1*XsAp27pU4o4j8S9ybZKISg.png)
+
+
 
 # Amazon API Gateway
 ![AWS](https://d1.awsstatic.com/Test%20Images/test-images/aws_logo.1279633de30de16a6ba56242ee86c8c79254b91c.png)
