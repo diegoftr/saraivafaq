@@ -3,7 +3,7 @@ Aplicativo desenvolvido para demonstrar o funcionamento do chatbot da google dia
 
 O dialogflow foi alimentado com os dados do FAQ da saraiva https://www.saraiva.com.br/central-de-atendimento.
 
-Web demo https://bot.dialogflow.com/c19dcf69-a670-4dcc-bf42-067dd8ddd15a
+https://play.google.com/store/apps/details?id=com.saraivafaq&hl=pt_BR
 
 A ideia com a evolução desse projeto é criar uma arquitetura simples e robusta para oferecer uma forma simples de empresas criarem seu chatbot e realizarem a integração com os atententes humanos.
 
@@ -50,3 +50,7 @@ Esse comportamento bidirecional permite tipos mais ricos de interações cliente
 
 
 
+![Funcionamento integração chat humano]
+Abaixo é exibido o funcionamento do da integração entre usuário e operador, o operador está enviando as mensagens via console.
+
+![Chat1](imgs/chat1.jpeg)![Chat2](imgs/chat2.jpeg)![Chat3](imgs/chat3.jpeg)![Chat4](imgs/chat4.png)
